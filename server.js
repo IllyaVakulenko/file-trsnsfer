@@ -38,7 +38,7 @@ async function main() {
   });
 
   app.listen(port, () => {
-    console.log(`Server started on: ${ip}:${port}`);
+    console.log(`Server started on: ${ip}:${port}${download_path}`);
   });
 }
 
